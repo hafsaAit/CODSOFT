@@ -137,3 +137,7 @@ class ContactBook:
         self.email_entry.delete(0, tk.END)
         self.address_entry.delete(0, tk.END)
 
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = ContactBook(root)
+    root.mainloop()
